@@ -214,7 +214,7 @@ In this task, you will verify the synchronization of identities in Microsoft Ent
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="ecb2747e-8d27-4fbc-9459-a9bb4a6d5171" />
+<validation step="88f54cf4-f08e-43d1-ae62-4372fa096ded" />
 
 ## Review 
 

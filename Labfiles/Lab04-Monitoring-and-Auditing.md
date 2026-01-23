@@ -44,7 +44,7 @@ In this task, you will create a Log Analytics workspace for to store the log inf
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    <validation step="abc96da1-739e-47e8-a627-b36299a4f02b" />
+    <validation step="10e645b5-8801-42ea-9684-ad923dfe3099" />
 
 ## Task 2 - Add Diagnostic setting to collect audit logs
 
