@@ -1,6 +1,6 @@
 # Lab 04: Monitor and audit Entra ID for security and compliance purposes
 
-### Estimated Duration: 30 Minutes
+#### Estimated Duration: 30 Minutes
 
 ## Overview 
 This lab focuses on setting up a  Log Analytics workspace in Azure to store and analyze logs from Azure Arc-enabled machines. Configure diagnostic settings in Microsoft Entra ID to collect audit and sign-in logs, directing them to the created workspace.
