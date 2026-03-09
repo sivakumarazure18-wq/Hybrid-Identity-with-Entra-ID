@@ -1,6 +1,6 @@
 # Lab 03: Implement and use Privileged Identity Management
 
-### Estimated Duration: 30 Minutes
+#### Estimated Duration: 30 Minutes
 
 ## Overview
 
