@@ -1,6 +1,6 @@
 # Getting Started with Hybrid Identity with Entra ID
 
-### Overall Estimated Duration: 4 Hours
+#### Overall Estimated Duration: 4 Hours
 
 ## Overview
 
