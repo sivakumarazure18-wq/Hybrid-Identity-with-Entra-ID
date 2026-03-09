@@ -1,6 +1,6 @@
 # Lab 01: Setup Hybrid Identity with On-Prem AD and Entra ID
 
-### Estimated Duration: 60 Minutes
+#### Estimated Duration: 60 Minutes
 
 ## Overview 
 
