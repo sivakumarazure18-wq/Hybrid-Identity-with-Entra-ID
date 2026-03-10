@@ -1,6 +1,6 @@
 # Lab 02: Configuring Self-service password reset for user accounts in Entra ID
 
-#### Estimated Duration: 45 Minutes
+#### Estimated Duration: 60 Minutes
 
 ## Overview 
 
