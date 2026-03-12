@@ -21,7 +21,7 @@ In this task, you will set up Active Directory Domain Services on a Windows Serv
  
     ![](../media/lab1-1.png)
  
-1. Look for **Manage** on the top right of the menu bar. Click on it and then select **Add Roles and Features**. A pop-up window will open immediately. This pop-up window is the installer wizard that guides you with the roles and features setup.
+1. Look for **Manage** on the top right of the menu bar. Click on it and then select **Add Roles and Features**. A pop-up window will open immediately. This pop-up window is the installer wizard that guides you through the roles and features setup.
 
     ![](../media/lab1-2.png)
    
@@ -41,9 +41,9 @@ In this task, you will set up Active Directory Domain Services on a Windows Serv
 
    ![](../media/lab1-6.png)
    
-1. Next, a pop-up window will be displayed. This is the checkpoint for adding new features. Navigate on the **Add features** button at the bottom of the window and a list of available features will be displayed.
+1. Next, a pop-up window will be displayed. This is the checkpoint for adding new features. Navigate on the **Add features** button at the bottom of the window, and a list of available features will be displayed.
    
-1. Next simply click **next** without making modifications to any other settings.
+1. Next, simply click **next** without making modifications to any other settings.
 
    ![](../media/lab1-7.png) 
   
@@ -51,18 +51,18 @@ In this task, you will set up Active Directory Domain Services on a Windows Serv
 
    ![](../media/lab1-8.png)
     
-1. You’ll see a summary of your selected options here. Have a look at them carefully, and if you think you’ve made a mistake at any of the earlier checkpoints, you can go back and fix it by clicking **< Previous**. Then, click **Install** button, once you’re satisfied with your selections at the “Confirmation” checkpoint.
+1. You’ll see a summary of your selected options here. Have a look at them carefully, and if you think you’ve made a mistake at any of the earlier checkpoints, you can go back and fix it by clicking **< Previous**. Then, click the **Install** button once you’re satisfied with your selections at the “Confirmation” checkpoint.
 
    ![](../media/lab1-9.png) 
   
-1. The wizard will then begin installation. The time of install depends on your machine’s hardware configuration and what features you’ve selected to be installed. Please make sure not to interrupt the installation. Once the installation is complete, click the **Close** button.
+1. The wizard will then begin installation. The time of installation depends on your machine’s hardware configuration and what features you’ve selected to be installed. Please make sure not to interrupt the installation. Once the installation is complete, click the **Close** button.
 
    >**Note:** The installation may take around 2-3 minutes to complete. 
   
-1. On the **Server Manager** dashboard, you’ll should see a yellow triangle warning sign on the top right of the window near the menu bar. This sign appears only if Active Directory Domain Services was properly installed.
+1. On the **Server Manager** dashboard, you should see a yellow triangle warning sign on the top right of the window near the menu bar. This sign appears only if Active Directory Domain Services was properly installed.
 
    ![](../media/lab1-10.png)    
-1. Click on the warning sign and a dropdown list will show you the required actions termed **post-deployment configuration**.
+1. Click on the warning sign, and a dropdown list will show you the required actions termed **post-deployment configuration**.
    
 1. Look for the **Promote this server to a domain controller** option and click on it.
 
@@ -74,11 +74,11 @@ In this task, you will set up Active Directory Domain Services on a Windows Serv
 
 1. At the **Domain Controller Options** checkpoint, leave all the settings untouched and enter your desired password in the **Directory Services Restore Mode (DSRM) password** and **Confirm password** **(1)** textboxes. Then click **Next (2)**.
 
-   >**Note:** Make sure to keep a note of this password as changing it later on is troublesome.
+   >**Note:** Make sure to keep a note of this password, as changing it later on is troublesome.
 
    ![](../media/lab1-13.png)
  
-1. On the **DNS Options** page, you’ll see an error message stating that there’s no parent zone found and no delegation for your DNS server could be created. Ignore this message and click the **next** button, leaving all the settings at this checkpoint unchanged.
+1. On the **DNS Options** page, you’ll see an error message stating that there’s no parent zone found, and no delegation for your DNS server could be created. Ignore this message and click the **next** button, leaving all the settings at this checkpoint unchanged.
 
    ![](../media/lab1-14.png)
 
@@ -90,11 +90,11 @@ In this task, you will set up Active Directory Domain Services on a Windows Serv
 
    ![](../media/lab1-16.png)
 
-1. Whatever options you’ve selected so far will listed on the configuration wizard at this checkpoint. Have a look at them and if needed, move to the previous checkpoints using the **< Previous** button and make the desired changes. Once you’re satisfied with the selected options, click **Next** on the **Review Options**.
+1. Whatever options you’ve selected so far will be listed on the configuration wizard at this checkpoint. Have a look at them and if needed, move to the previous checkpoints using the **< Previous** button and make the desired changes. Once you’re satisfied with the selected options, click **Next** on the **Review Options**.
 
    ![](../media/lab1-17.png)
 
-1. Next, head to the **Prerequisites Check** checkpoint. At this stage you’ll see, if all the prerequisite checks were successfully completed. If not, then a list of errors will be displayed on the window. If there are any errors, you’ll need to go to the stated checkpoint and fix the errors. Once you’ve fixed all the errors, a green check mark with a success message will be displayed. Then click **Install** to begin the installation.
+1. Next, head to the **Prerequisites Check** checkpoint. At this stage, you’ll see if all the prerequisite checks were completed. If not, then a list of errors will be displayed in the window. If there are any errors, you’ll need to go to the stated checkpoint and fix the errors. Once you’ve fixed all the errors, a green check mark with a success message will be displayed. Then click **Install** to begin the installation.
 
    ![](../media/lab1-18.png)
 
@@ -111,11 +111,11 @@ In this task, you will add user accounts to the domain controller in Active Dire
 
 1. In the Active Directory Users and Computers console, on the left pane, you will see a hierarchical structure of your domain. This structure represents the organization of your Active Directory environment. 
 
-1. Expand the folder which represents the **Contoso.local (1)** domain and expand the **Users (2)** folder. This is where you will create new user accounts for your domain. Click on the **New User (3)** option to create a new user account.
+1. Expand the folder that represents the **Contoso.local (1)** domain and expand the **Users (2)** folder. This is where you will create new user accounts for your domain. Click on the **New User (3)** option to create a new user account.
 
    ![](../media/lab1-20.png)
 
-1. Enter the following to create the below listed users: 
+1. Enter the following to create the users listed below: 
 
       | Name           | User Name                | Password   | 
       | -------------- | ------------------------ | ---------- |
@@ -124,7 +124,7 @@ In this task, you will add user accounts to the domain controller in Active Dire
       | Allan Deyoung  | `AllanD@Contoso.local`   | Pa55-w.rd! | 
       | Joni Sherman   | `JoniS@Contoso.local`    | Pa55-w.rd! | 
 
-1. Please find the below images indicating the user creation process. Repeat these steps to create all users.
+1. Please find the images below indicating the user creation process. Repeat these steps to create all users.
     
    >**Note:** Make sure to uncheck the **User must change the Password at next logon** setting
 
@@ -138,17 +138,17 @@ In this task, you will add user accounts to the domain controller in Active Dire
 
 ### Task 3: Configure directory synchronization with Microsoft Entra Connect
 
-In this task, you will configure directory synchronization between your on-premises Active Directory and Azure Active Directory using Microsoft Entra Connect. This involves downloading and installing Microsoft Entra Connect, providing necessary credentials for synchronization, and configuring synchronization options. By completing this task, you will enable the seamless synchronization of user identities between on-premises AD and Microsoft Entra .
+In this task, you will configure directory synchronization between your on-premises Active Directory and Azure Active Directory using Microsoft Entra Connect. This involves downloading and installing Microsoft Entra Connect, providing necessary credentials for synchronization, and configuring synchronization options. By completing this task, you will enable the seamless synchronization of user identities between on-premises AD and Microsoft Entra.
 
-1. Open the a new browser tab in your Lab VM.
+1. Open a new browser tab in your Lab VM.
 
-1. In the address bar, enter the below URL: 
+1. In the address bar, enter the URL below: 
 
    ```
    https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/AADConnectMenuBlade/%7E/GetStarted
    ```
 
-   >**Note:** Login in with the credentials provided in the **Environment** tab if you are not logged in already. 
+   >**Note:** Log in with the credentials provided in the **Environment** tab if you are not logged in already. 
 
 1. You will be navigated to **Microsoft Entra Connect** page, click on **Manage** 
 
@@ -178,7 +178,7 @@ In this task, you will configure directory synchronization between your on-premi
 
    ![](../media/L1T3S9-0903.png)
 
-1. You will be navigated to a pop-up for signing in to Microsoft Account. 
+1. You will be navigated to a pop-up for signing in to a Microsoft Account. 
 
    - Enter UserName/Email: **<inject key="AzureAdUserEmail"></inject>**
 
@@ -208,7 +208,7 @@ In this task, you will configure directory synchronization between your on-premi
 
 ### Task 4: Verify synchronization in Microsoft Entra
 
-In this task, you will verify the synchronization of identities in Microsoft Entra . You will access the Microsoft 365 admin center, navigate to the Identity section, and verify that user accounts synchronized from on-premises AD are visible in Microsoft Entra . By confirming successful synchronization, you will ensure that users can access cloud-based resources using their on-premises credentials.
+In this task, you will verify the synchronization of identities in Microsoft Entra. You will access the Microsoft 365 admin center, navigate to the Identity section, and verify that user accounts synchronized from on-premises AD are visible in Microsoft Entra. By confirming successful synchronization, you will ensure that users can access cloud-based resources using their on-premises credentials.
 
 1. Open a new browser tab in your Lab VM.
 
@@ -237,7 +237,7 @@ In this task, you will verify the synchronization of identities in Microsoft Ent
 
 ## Summary 
 
-In this lab, you have set up a hybrid identity solution by configuring on-premises Active Directory and synchronizing it with Microsoft Entra . You have successfully installed Active Directory Domain Services, created user accounts in the domain controller, configured directory synchronization using Microsoft Entra Connect, and verified the synchronization of identities in Microsoft Entra . This foundational setup enables seamless access to resources across both on-premises and cloud environments, providing a unified identity management experience.
+In this lab, you have set up a hybrid identity solution by configuring on-premises Active Directory and synchronizing it with Microsoft Entra. You have successfully installed Active Directory Domain Services, created user accounts in the domain controller, configured directory synchronization using Microsoft Entra Connect, and verified the synchronization of identities in Microsoft Entra. This foundational setup enables seamless access to resources across both on-premises and cloud environments, providing a unified identity management experience.
 
-#### You have successfully completed the lab. Click on Next >> to procced with next exercise.
+#### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
    ![](../media/up4.png)
