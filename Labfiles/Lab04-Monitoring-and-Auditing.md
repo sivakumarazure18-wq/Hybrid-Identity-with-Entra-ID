@@ -15,9 +15,9 @@ In this lab, you will perform the following:
 
 ### Task 1 - Create Log Analytics Workspace
 
-In this task, you will create a Log Analytics workspace for to store the log information and analysing the machines onboarded through Azure Arc.
+In this task, you will create a Log Analytics workspace to store the log information and analyze the machines onboarded through Azure Arc.
 
-1. On your LabVM, open a new browser tab and login to **Azure Portal**, using the below URL: 
+1. On your LabVM, open a new browser tab and log in to **Azure Portal**, using the below URL: 
 
    ```
    https://portal.azure.com
@@ -64,12 +64,12 @@ In this task, you will create a Log Analytics workspace for to store the log inf
 
    - Diagnostic setting name : **Logsinfo (1)**
    - Check the box for **audit (2)** and **allLogs (3)**.
-   - Under **Destination details**, select the **Send to Log analytics checkbox (4)** and make sure that log analytics workspace which is created earlier is selected.
+   - Under **Destination details**, select the **Send to Log analytics checkbox (4)** and make sure that the log analytics workspace that was created earlier is selected.
    - Click on **Save (5)**.
 
       ![](../media/L4T2S3-0903.png)
 
-1. On **Destination details**, select the **Send to Log analytics checkbox** and make sure that log analytics workspace which is created earlier is selected.
+1. On **Destination details**, select the **Send to Log analytics checkbox** and make sure that the log analytics workspace that was created earlier is selected.
 
 1. Click on **Save**.
 
@@ -101,6 +101,6 @@ In this task, you will verify the logs collected in the Log Analytics workspace.
 
 In this lab, you have successfully created a Log Analytics workspace, configured diagnostic settings to collect audit and sign-in logs from Microsoft Entra ID, and verified the logs in the workspace. This setup is crucial for monitoring and auditing activities in your Azure environment, helping you maintain security and compliance effectively.
 
-#### You have successfully completed the lab. Click on Next >> to procced with next exercise.
+#### You have successfully completed the lab. Click on Next >> to proceed with the next lab.
 
    ![](../media/up4.png)
