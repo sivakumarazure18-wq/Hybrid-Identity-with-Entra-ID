@@ -17,7 +17,6 @@ By completing this lab series, you will have comprehensive knowledge of designin
 - Assign **Azure resource roles** with **Privileged Identity Management** using **time-bound, eligible assignments** with approval workflows.
 - Create a **Log Analytics Workspace** and configure **diagnostic settings** to collect and analyze **Entra ID audit and sign-in logs**.
 - Create **security groups**, configure **recurring access reviews**, and set up **external collaboration** with **guest user access controls**.
-- Enable **passwordless phone sign-in** using **Microsoft Authenticator** app and validate authentication without passwords.
 
 ## Architecture
 
@@ -25,7 +24,7 @@ By completing this lab series, you will have comprehensive knowledge of designin
 
 - **Microsoft Entra ID** provides centralized cloud-based identity and access management, enforcing **security baselines, conditional access policies** to protect resources. **Privileged Identity Management (PIM)** manages and monitors privileged access through time-bound, approval-based role assignments, ensuring security and governance controls. **Log Analytics Workspace** and **Azure Monitor** collect and analyze audit logs, sign-in logs, and security events for compliance, threat detection, and operational insights.
 
-- **Access Reviews** and **Role-Based Access Control (RBAC)** establish governance controls, enabling regular access validation and least-privilege permissions. **External Collaboration Settings** and **Guest User Management** facilitate secure partner and vendor access with configurable invitation and access restrictions. **Passwordless Authentication** (Microsoft Authenticator app and phone sign-in) enhances security while improving user experience. **Self-Service Password Reset (SSPR)** with password writeback ensures users can manage credentials securely while maintaining synchronization between cloud and on-premises environments.
+- **Access Reviews** and **Role-Based Access Control (RBAC)** establish governance controls, enabling regular access validation and least-privilege permissions. **External Collaboration Settings** and **Guest User Management** facilitate secure partner and vendor access with configurable invitation and access restrictions. **Self-Service Password Reset (SSPR)** with password writeback ensures users can manage credentials securely while maintaining synchronization between cloud and on-premises environments.
 
 ## Explanation of Components
 
